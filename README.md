@@ -1,0 +1,1 @@
+This repository contains some rarely-used utils that extract vendor-specific data like vulnerability descriptions from PT AI modules and saves it to JSON files

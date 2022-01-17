@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "description-generator", "description-generator\description-generator.csproj", "{68C93FAD-CD6B-4689-9385-F2D7C49BC6F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C93FAD-CD6B-4689-9385-F2D7C49BC6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C93FAD-CD6B-4689-9385-F2D7C49BC6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C93FAD-CD6B-4689-9385-F2D7C49BC6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C93FAD-CD6B-4689-9385-F2D7C49BC6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E06CCB9C-3EAB-4FA4-B4EE-A1FDAC0C45F8}
+	EndGlobalSection
+EndGlobal
