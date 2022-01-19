@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+    id 'com.github.johnrengelman.shadow'
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.jooq/joor
+    implementation 'org.jooq:joor-java-8:0.9.14'
+    // https://mvnrepository.com/artifact/info.picocli/picocli
+    implementation 'info.picocli:picocli:4.6.2'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+    // From https://github.com/PositiveTechnologies/ptaiPlugins
+    implementation 'com.ptsecurity.appsec.ai.ee.utils.ci.integration:ptai-data-structures:3.6.5'
+}
+
+mainClassName = 'com.ptsecurity.appsec.ai.ee.utils.internal.description.generator.Generator'
+
+shadowJar {
+    archiveClassifier.set('')
+    archiveVersion.set('')
+}
